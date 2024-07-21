@@ -1,0 +1,44 @@
+{
+  "name": "my-app",
+  "main": "index.html",
+  "type": "module",
+  "pear": {
+    "name": "my-app",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": 540,
+      "width": 720
+    }
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear dev",
+    "test": "brittle test/*.test.js",
+    "build": "babel src --out-dir dist"
+  },
+  "dependencies": {
+    "@hyperswarm/dht": "^6.5.1",
+    "axios": "^1.7.2",
+    "b4a": "^1.6.6",
+    "hypercore": "^10.37.11",
+    "hypercore-crypto": "^3.4.2",
+    "hyperswarm": "^4.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/preset-react": "^7.24.7",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "brittle": "^3.0.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "vite": "^5.3.4"
+  }
+}
