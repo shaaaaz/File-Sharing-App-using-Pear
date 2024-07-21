@@ -2,7 +2,7 @@
 
 ## Useful Links
 
-- Google Drive - https://drive.google.com/file/d/1gQvmum_NPohkL022xZszyU0EbCze9JYV/view?usp=sharing
+- Google Drive - https://drive.google.com/file/d/1Iz0mEWrStwLDfR-nR36XtqAcRxhQq4Ia/view?usp=sharing
 - Github - https://github.com/shaaaaz/File-Sharing-App-using-Pear
 
 I have created a Peer to Peer file sharing application where users can connect and share files to each other reliably.
@@ -34,7 +34,7 @@ pear run pear://runtime
 After extracting the files, go to zip folder and install all of the necesarry dependencies.
 
 ```bash
-cd zip
+cd pear-app
 npm i
 npm i hyperswarm hypercore-crypto b4a
 ```

@@ -51,7 +51,7 @@ const App = () => {
       currentSwarm.destroy() // destroys the swarm so that data is safe and nework is fast
     }
   }, [])
-  
+
   // creates a new chat room 
   const createChatRoom = async () => {
     console.log("on create chat room")
@@ -148,11 +148,11 @@ const App = () => {
           {files.map((file, index) => (
             <div key={index} className={`fileItem ${file.from === 'You' ? 'fromYou' : 'fromPeer'}`}>
               {/* name of the person who has sent the file */}
-              <div>{file.from}</div> 
-              <br/>
+              <div>{file.from}</div>
+              <br />
               {/* calls download function onclick which will download the file */}
               <button onClick={() => downloadFile(file, index)} className='download'>DOWNLOAD</button>
-              <br/>
+              <br />
               {/* name of the file */}
               <div>{file.name}</div>
             </div>
@@ -167,7 +167,6 @@ const App = () => {
           </label>
         </div>
       </div>}
-
 
     </div>
   )
