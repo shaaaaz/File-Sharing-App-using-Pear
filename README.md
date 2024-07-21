@@ -1,3 +1,10 @@
+# Peer to Peer File Sharing Application using Pear by Holepunch
+
+## Useful Links
+
+- Google Drive - https://drive.google.com/file/d/1gQvmum_NPohkL022xZszyU0EbCze9JYV/view?usp=sharing
+- Github - https://github.com/shaaaaz/File-Sharing-App-using-Pear
+
 I have created a Peer to Peer file sharing application where users can connect and share files to each other reliably.
 
 I have used ReactJS and Pear by Holepunch to create this application.
@@ -55,16 +62,12 @@ pear run --dev .
 
 5. Using the App
 
-To landing page of the application consists of two buttons- 
+The landing page of the application consists of two buttons- 
 
 - Create a Room - Create a new room of yours to share files
-- Join a Room - Enter the key and join an already existing room
+- Join a Room - Enter the key and join an already existing room. While joining a room you might need to enter the key twice. 
 
 After you are a part of a room you can share files in a simple manner after jus clicking on the file upload button available at the bottom of the app.
 
 You can also invite other to your room by sharing the topic which is mentioned at the top of the screen.
 
-## Useful Links
-
-- Google Drive - https://drive.google.com/file/d/1gQvmum_NPohkL022xZszyU0EbCze9JYV/view?usp=sharing
-- Github - 
